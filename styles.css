@@ -1,0 +1,123 @@
+#topDiv {
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: darkslategrey;
+  padding-right: 8px;
+  font-size: 14px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#searchDiv {
+  vertical-align: middle;
+  text-align: center;
+}
+#searchDiv input[type=text] {
+  border-radius: 35px;
+  border: 1px solid lightgrey;
+  padding: 5px;
+  padding-left: 10px;
+  width: 500px;
+  height: 35px;
+  outline: none;
+}
+#searchDiv input[type=text]:hover {
+  box-shadow: 2px;
+}
+#searchDiv input[type=submit] {
+  border-radius: 12px;
+  border-color: #F8F8F8;
+  border: none;
+  width: 200px;
+  height: 35px;
+}
+#searchDiv input[type=submit]:hover {
+  border: 1px solid lightgrey;
+}
+
+#ASearchImgDiv {
+  content-align: left;
+}
+#ASearchImgDiv img {
+  width: 100px;
+  height: auto;
+  padding: 25px;
+  padding-top: 20px;
+}
+#ASearchImgDiv input[type=submit] {
+  border-color: #F8F8F8;
+  border: none;
+  width: 200px;
+  height: 35px;
+}
+
+#ASearchTitle h3 {
+  text-align: left;
+  color: #d93025;
+  padding-left: 40px;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+#ASearchDiv {
+  vertical-align: middle;
+  text-align: left;
+  padding: 50px;
+  font-weight: normal;
+  display: inline-block;
+}
+#ASearchDiv form {
+  font-size: 12px;
+  text-align: left;
+}
+#ASearchDiv form p {
+  font-size: 13px;
+}
+#ASearchDiv form input[type=text] {
+  border-radius: 1px;
+  border: 1px solid lightgrey;
+  padding: 10px;
+  padding-left: 10px;
+  width: 500px;
+  height: 15px;
+  float: right;
+  clear: both;
+}
+#ASearchDiv form input[type=text]:hover {
+  box-shadow: 2px;
+}
+#ASearchDiv form input[type=submit] {
+  border-radius: 1px;
+  background-color: #4d90fe;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  width: 150px;
+  height: 30px;
+  float: right;
+  clear: both;
+}
+#ASearchDiv form input[type=submit]:hover {
+  border: 1px solid lightgrey;
+}
+
+img:not(.ASimg) {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 275px;
+  height: auto;
+  padding: 25px;
+  padding-top: 120px;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+/*# sourceMappingURL=styles.css.map */
